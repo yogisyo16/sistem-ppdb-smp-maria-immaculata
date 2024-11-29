@@ -1,0 +1,62 @@
+.gradient-custom-guest {
+    /* fallback for old browsers */
+    background: #83dddd;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(131, 221, 221, 0.5), rgba(30, 126, 200, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(131, 221, 221, 0.5), rgba(30, 126, 200, 0.5))
+}
+
+.gradient-custom-guest-2 {
+    /* fallback for old browsers */
+    background: #c7d1ff;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(199, 209, 255, 0.502), rgba(82, 110, 255, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(199, 209, 255, 0.5), rgba(82, 110, 255, 0.5))
+}
+
+.gradient-custom-guest-3 {
+    /* fallback for old browsers */
+    background: #d1ffff;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(214, 239, 255, 0.502), rgba(192, 226, 255, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(214, 239, 255, 0.5), rgba(192, 226, 255, 0.5))
+}
+
+.gradient-custom-guest-4 {
+    /* fallback for old browsers */
+    background: #d2eaff;
+    ;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top, rgba(214, 239, 255, 0.502), rgba(106, 178, 241, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, rgba(214, 239, 255, 0.5), rgba(106, 178, 241, 0.5))
+}
+
+.password-requirement {
+    font-size: 10pt;
+}
+
+#togglePassword {
+    float: right;
+    margin-left: -25px;
+    margin-top: -32px;
+    right: 10px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.register-user {
+    min-height: 100vh;
+}
