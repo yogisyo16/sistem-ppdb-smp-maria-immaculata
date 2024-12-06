@@ -66,8 +66,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # Skripsi-Sistem-PPDB
 
-Tugas Akhir Pembuatan Sistem PPDB SMP Maria Immaculata by Yogiswara Adinugraha Pramudita
+Tugas Akhir Pembuatan Sistem PPDB SMP Maria Immaculata by Yogiswara Adinugraha Pramudita.
+This project is already deploy into [SMP Maria Immaculata Sistem PPDB] (https://smpmariaimmaculata.sch.id/).
 
+## Bugs or Error notice
+
+On deploy you can see there's some format on dashboard, or user interface not strech very well, and also some images doesn't came out
+it cause by PHP Versioning that i use for this project.
+I use **PHP 8.3.13 (cli) (built: Oct 22 2024 21:07:34) (NTS Visual C++ 2019 x64)
+Copyright (c) The PHP Group
+Zend Engine v4.3.13, Copyright (c) Zend Technologies**
+
+On hosting server they not yet to support this version.
+There newest version is PHP 8.2.26.
+
+Wait for future information about deployment and hosting services.
 ## Read Me or Structure Folder!!
 
 ### Database
