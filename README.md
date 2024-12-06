@@ -71,8 +71,8 @@ This project is already deploy into [SMP Maria Immaculata Sistem PPDB] (https://
 
 ## Bugs or Error notice
 
-On deploy you can see there's some format on dashboard, or user interface not strech very well, and also some images doesn't came out
-it cause by PHP Versioning that i use for this project.
+On deploy you can see there's some format on dashboard, or user interface not strech very well, and also some images doesn't came out, this cause by PHP Versioning that i use for this project.
+
 I use **PHP 8.3.13 (cli) (built: Oct 22 2024 21:07:34) (NTS Visual C++ 2019 x64)
 Copyright (c) The PHP Group
 Zend Engine v4.3.13, Copyright (c) Zend Technologies**
@@ -80,7 +80,7 @@ Zend Engine v4.3.13, Copyright (c) Zend Technologies**
 On hosting server they not yet to support this version.
 There newest version is PHP 8.2.26.
 
-Wait for future information about deployment and hosting services.
+Wait for future notices about deployment and hosting services.
 ## Read Me or Structure Folder!!
 
 ### Database
