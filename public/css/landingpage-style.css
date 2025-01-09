@@ -1,0 +1,105 @@
+/* .btn {
+    margin: 5px;
+} */
+
+@media (min-width: 768px) {
+    .collapse.dont-collapse-sm {
+        display: block;
+        height: auto !important;
+        visibility: visible;
+    }
+}
+
+/* Tooltip */
+.tooltip-custom {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.tooltip-custom .tooltiptext-custom {
+    visibility: hidden;
+    width: 200px;
+    top: -5px;
+    left: 345%;
+    margin-left: -60px;
+    background-color: rgb(95, 95, 95);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip-custom:hover {
+    border-bottom: 1px dotted black;
+}
+
+.tooltip-custom:hover .tooltiptext-custom {
+    visibility: visible;
+}
+
+/* Materials Icons */
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.material-icons.md-60 {
+    font-size: 60px;
+}
+
+.material-symbols.md-18 {
+    font-size: 18px;
+}
+
+.material-symbols.md-24 {
+    font-size: 24px;
+}
+
+.material-symbols.md-36 {
+    font-size: 36px;
+}
+
+.material-symbols.md-48 {
+    font-size: 48px;
+}
+
+.material-symbols.md-60 {
+    font-size: 60px;
+}
+
+.bg-container-landing {
+    border: 2px solid black;
+    border-radius: 5px;    
+}
+
+/* .landing-logo {
+    margin-right: -150px;
+} */
+
+/* .landing-logo img {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+} */
+
+.img-imex-landing {
+    width: 7%;
+}

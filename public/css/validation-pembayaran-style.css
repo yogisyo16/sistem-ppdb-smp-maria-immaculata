@@ -1,0 +1,9 @@
+.img-bukti {
+    border: 1px solid black;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.img-valid-page {
+    text-align: center;
+}

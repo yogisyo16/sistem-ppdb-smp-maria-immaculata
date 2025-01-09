@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    font-family: "Geist", sans-serif;
+}
+
+.body-web{
+    min-height: 100vh;
+}
+
+/* Tooltip */
+.tooltip-custom {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-custom .tooltiptext-custom {
+    visibility: hidden;
+    width: 120px;
+    top: -5px;
+    left: 345%;
+    margin-left: -60px;
+    background-color: rgb(95, 95, 95);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.tooltip-custom:hover {
+    border-bottom: 1px dotted black;
+}
+
+.tooltip-custom:hover .tooltiptext-custom {
+    visibility: visible;
+}
+
+.bg-container-landing {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.img-imex-landing {
+    width: 7%;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Color */
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #83dddd;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to left, rgba(131, 221, 221, 0.5), rgba(30, 126, 200, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to left, rgba(131, 221, 221, 0.5), rgba(30, 126, 200, 0.5))
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #c7d1ff;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(199, 209, 255, 0.502), rgba(82, 110, 255, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(199, 209, 255, 0.5), rgba(82, 110, 255, 0.5))
+}
+
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #d1ffff;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(214, 239, 255, 0.502), rgba(192, 226, 255, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(214, 239, 255, 0.5), rgba(192, 226, 255, 0.5))
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #d2eaff;
+    ;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to top, rgba(214, 239, 255, 0.502), rgba(106, 178, 241, 0.502));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, rgba(214, 239, 255, 0.5), rgba(106, 178, 241, 0.5))
+}
+
+.gradient-custom-5 {
+    /* fallback for old browsers */
+    background: #c2f6ff;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, rgba(194, 246, 255, 0.3), rgba(114, 131, 253, 0.3));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(194, 246, 255, 0.3), rgba(114, 131, 253, 0.3))
+}
+
+.gradient-custom-6 {
+    /* fallback for old browsers */
+    background: #ffffff;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(163, 208, 255, 0.35));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.35), rgba(163, 208, 255, 0.35))
+}
